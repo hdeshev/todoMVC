@@ -4,31 +4,34 @@
 #   Ensure the SQLite 3 gem is defined in your Gemfile
 #   gem 'sqlite3'
 development:
-  adapter: postgresql
-  database: d5jsee7n3tn7f1
-  pool: 5
-  timeout: 5000
-  name: puqzvidhijhphi
-  password: LmT0Y4KjzQw5nxqsGqFTWX6AmL
-  port: 5432
+  adapter: 	postgresql
+  encoding: 	unicode
+  pool: 	5
+  database: 	d5jsee7n3tn7f1
+  username: 	puqzvidhijhphi
+  password: 	LmT0Y4KjzQw5nxqsGqFTWX6AmL
+  host: 	ec2-54-243-243-252.compute-1.amazonaws.com
+  port: 	5432
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test:
-  adapter: postgresql
-  database: d5jsee7n3tn7f1
-  pool: 5
-  timeout: 5000
-  name: puqzvidhijhphi
-  password: LmT0Y4KjzQw5nxqsGqFTWX6AmL
-  port: 5432
+  adapter: 	postgresql
+  encoding: 	unicode
+  pool: 	5
+  database: 	d5jsee7n3tn7f1
+  username: 	puqzvidhijhphi
+  password: 	LmT0Y4KjzQw5nxqsGqFTWX6AmL
+  host: 	ec2-54-243-243-252.compute-1.amazonaws.com
+  port: 	5432
 
 production:
-  adapter: postgresql
-  database: d5jsee7n3tn7f1
-  pool: 5
-  timeout: 5000
-  name: puqzvidhijhphi
-  password: LmT0Y4KjzQw5nxqsGqFTWX6AmL
-  port: 5432
+  adapter: 	postgresql
+  encoding: 	unicode
+  pool: 	5
+  database: 	d5jsee7n3tn7f1
+  username: 	puqzvidhijhphi
+  password: 	LmT0Y4KjzQw5nxqsGqFTWX6AmL
+  host: 	ec2-54-243-243-252.compute-1.amazonaws.com
+  port: 	5432
