@@ -1,0 +1,44 @@
+.filter-completed {}
+
+.filter-active {}
+
+.filter-completed li.completed {
+    display: block;
+}
+
+.filter-completed li {
+    display: none;
+}
+
+.filter-active li.completed {
+    display: none;
+}
+
+.view {
+    position: relative;
+}
+
+
+#todo-list li:hover .drop {
+    display: block;
+}
+
+.drop {
+    position: absolute;
+    display:none;
+    right: 52px;
+    top: 8px;
+    height: 42px;
+    width: 42px;
+    background-image: url('../images/arrow.png');
+}
+
+.drop-to-me {
+    border-bottom: 3px solid gray !important;
+}
+
+.id-helper {
+    display: none;
+    height: 30px;
+    width: 30px;
+}
